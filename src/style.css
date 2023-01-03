@@ -209,7 +209,7 @@ span {
   color: crimson;
 }
 
-@media (max-width: 915px) {
+@media only screen and (max-width: 1280px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -269,7 +269,7 @@ span {
   }
 }
 
-@media (max-width: 450px) {
+@media only screen and (max-width: 810px) {
   .container {
     display: flex;
     flex-direction: column;
