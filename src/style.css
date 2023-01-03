@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  background-position-y: 50%;
+  padding: 25px;
+  background-image: url(../img/0x0.png);
+  background-repeat: space;
+  filter: grayscale(100%);
+  justify-content: center;
+  background-position-y: 70%;
+  background-color: #000000;
+}
+
+h1 {
+  font-family: RickyMorty;
+  text-shadow: 2px 2px 5px rgb(26, 255, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: inline;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+main {
+  background-image: url(../img/garage.png);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-color: #000000;
+}
+
+h2 {
+  font-family: Prosto One;
+  text-align: center;
+  font-size: small;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  background-color: black;
+  font-family: "Orbitron", sans-serif;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.main-synopsis {
+  background-color: #000000;
+  border: 2px solid rgb(0, 255, 30);
+  font-family: "Press Start 2P", cursive;
+  width: 900px;
+  padding: 20px;
+  font-size: 20px;
+  color: chartreuse;
+  list-style: decimal;
+  text-align: center;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.char-synopsis {
+  border: 2px solid rgb(0, 255, 30);
+  background-color: #000000;
+  list-style: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  width: 900px;
+  display: flex;
+  font-family: "Press Start 2P", cursive;
+  font-size: small;
+  color: chartreuse;
+}
+
+.char-info {
+  border: 2px solid rgb(0, 255, 30);
+  background: rgb(66, 66, 66);
+  list-style: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 320px;
+}
+
+.char-photo {
+  width: 150px;
+  border: 2px solid rgb(0, 255, 30);
+  filter: drop-shadow(0px 10px 5px rgb(50, 213, 61));
+}
+
+.char-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 200px;
+  border: 2px solid rgb(0, 255, 30);
+  margin-left: 20px;
+  background: linear-gradient(
+    130deg,
+    rgb(113, 113, 113) 25%,
+    rgb(113, 113, 113) 80%
+  );
+}
+
+hr {
+  color: rgb(0, 255, 30);
+}
+
+#query {
+  text-align: center;
+}
+
+@font-face {
+  font-family: RickyMorty;
+  src: url(../src/get_schwifty.ttf);
+}
+
+.char-name {
+  font-size: large;
+  color: rgb(98, 255, 0);
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.char-species,
+.char-location,
+.char-gender {
+  font-family: "Press Start 2P", cursive;
+  font-size: small;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.char-status {
+  margin-top: 15px;
+  color: rgb(98, 255, 0);
+  font-family: RickyMorty;
+  font-size: 25px;
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.char-infoinside {
+  position: relative;
+  top: 100px;
+  z-index: 1;
+  height: 60px;
+}
+
+.doyouknow,
+.doyouknow-white {
+  background-color: #000000;
+  border: 2px solid rgb(0, 255, 30);
+  font-family: "Press Start 2P", cursive;
+  width: 900px;
+  padding: 20px;
+  font-size: 20px;
+  color: chartreuse;
+  list-style: decimal;
+  text-align: center;
+}
+
+.doyouknow-white {
+  color: white;
+}
+
+.mainlogo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo {
+  height: 150px;
+}
+
+button {
+  background-color: #000000;
+  border-bottom-color: white;
+}
+
+span {
+  color: crimson;
+}

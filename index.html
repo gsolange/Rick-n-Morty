@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Proyecto Final</title>
+  </head>
+  <body>
+    <header>
+      <img src="./img/Titulo.gif" />
+      <nav></nav>
+    </header>
+    <main class="container">
+      <article class="resume">
+        <img src="./img/ship.gif" />
+        <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"
+        ></script>
+        <p class="doyouknow">
+          <span id="time"> </span> Conectando... Aguarde en linea por favor...
+        </p>
+        <p class="doyouknow-white">
+          Bienvenido terrestre "<span id="nickname"></span>" de la dimension
+          C-137. Sus credenciales son validas para poder continuar... Soy tu IA
+          y estare guiandote en el dia de hoy.
+        </p>
+        <p class="doyouknow">
+          Actualmente encontramos la informacion solicitada acerca de la familia
+          Smith-Sanchez.
+        </p>
+        <p class="doyouknow-white">
+          Le recuerdo que su nivel de navegacion es VIP asi que podra obtener
+          informacion completa cuando haga click sobre su objetivo...
+        </p>
+      </article>
+      <article class="characters">
+        <button id="rick" type="button">
+          <img src="./img/rick.gif" height="180" width="100" />
+        </button>
+        <p class="char-synopsis">
+          Rick no tiene mucho en cuenta la ética o la moral, no existen para él.
+          Sólo buscará el camino más fácil sin importar a que costo, viéndose
+          que siempre pone en peligro a Morty o a su familia entera, él aparenta
+          que no les importa pero se ha podido apreciar una evolución de
+          personaje a lo largo de la serie viéndose que incluso se ha
+          sacrificado por su familia.
+        </p>
+        <ol id="ricklist"></ol>
+      </article>
+      <article class="characters">
+        <button id="morty" type="button">
+          <img src="./img/morty.gif" height="180" width="100" />
+        </button>
+        <p class="char-synopsis">
+          Morty es tranquilo y calmado pero muy manipulable, en la escuela no le
+          va del todo bien pués tiene dificultades en ella, principalmente
+          porque no tiene tiempo para estudiar debido a las aventuras que tiene
+          en compañía de su abuelo Rick.
+        </p>
+        <ol id="mortylist"></ol>
+      </article>
+      <article class="characters">
+        <button id="summer" type="button">
+          <img src="./img/summer.gif" height="180" width="100" />
+        </button>
+        <p class="char-synopsis">
+          Es el típico cliché americano que solo quiere ser popular, estar con
+          el chico más guapo y estar en su celular todo el día. Se ha visto que
+          Summer está celosa de la estrecha relación entre Rick y Morty.
+        </p>
+        <ol id="summerlist"></ol>
+      </article>
+      <article class="characters">
+        <button id="beth" type="button">
+          <img src="./img/beth.gif" height="180" width="100" />
+        </button>
+        <p class="char-synopsis">
+          Es una mujer inteligente y trata de ser el sostén de la familia, ha
+          demostrado que bajo estrés puede llegar a ser alcohólica y siempre
+          señala que su matrimonio esta sobre la cuerda floja o así fue hasta
+          que ella se divorcio de Jerry en el primer episodio de la tercera
+          temporada.
+        </p>
+        <ol id="bethlist"></ol>
+      </article>
+      <article class="characters">
+        <button id="jerry" type="button">
+          <img src="./img/Jerry.gif" height="180" width="100" />
+        </button>
+        <p class="char-synopsis">
+          Jerry siempre trata de llevar a su familia por el camino correcto,
+          pero a menudo eso no le sale bien debido a su egocéntrica
+          personalidad, lo cual le causa un gran conflicto con Rick ya que este
+          no tiene respeto hacia Jerry y luego de que Rick se entregara para
+          "Salvar a su familia" él hace que Beth elija entre él y su padre a lo
+          que ella responde que prefiere a su padre y desde ese momento están
+          divorciados. Siendo recordado constantemente que su matrimonio está
+          sobre la cuerda floja por lo que tiene un matrimonio disfuncional.
+        </p>
+        <ol id="jerrylist"></ol>
+      </article>
+      <br />
+      <br />
+      <article class="resume">
+        <p class="doyouknow-white">
+          En nuestra base de datos nos encontramos que...
+        </p>
+        <p class="doyouknow">
+          Rick y Morty (en inglés: Rick and Morty) es una serie de televisión
+          americana de animación para adultos creada por Justin Roiland y Dan
+          Harmon en 2013 para Adult Swim, también se emitió en Cartoon Network.
+        </p>
+        <p class="doyouknow-white">Sabias que...?</p>
+        <p class="doyouknow">
+          Todos los episodios de Rick y Morty siguen la estructura básica
+          desarrollada por Harmon y que este llama «Embrión de una historia». Se
+          trata de un esquema circular dividido en 8 pasos. Rick y Morty sigue
+          este esquema original pero adaptado a las series de televisión. Así
+          pues, el esquema circular quedaría así:
+        </p>
+        <ul class="doyouknow-white">
+          <li>El protagonista.</li>
+          <li>Nota un pequeño problema.</li>
+          <li>Toma una decisión importante.</li>
+          <li>Provoca cambios.</li>
+          <li>Satisfacción.</li>
+          <li>Hay consecuencias.</li>
+          <li>Deben ser neutralizadas.</li>
+          <li>Admite la futilidad del cambio.</li>
+        </ul>
+        <p class="doyouknow">
+          ... Recuerda terrestre que absolutamente todo lo que pasa en tu vida,
+          es para que despiertes tu conciencia y sigas con tu evolución.
+        </p>
+        <p class="doyouknow-white">Sesion finalizada...</p>
+      </article>
+    </main>
+    <footer>
+      <h2>Noemi Solange Gutierrez</h2>
+      <h3>Frontend Trainee</h3>
+      <a href="mailto:gnsolange@gmail.com"
+        ><i class="fa-solid fa-square-envelope"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/nsolangegutierrez/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="https://github.com/gsolange"
+        ><i class="fa-brands fa-square-github"></i
+      ></a>
+      <h2>Proyecto Final</h2>
+      <h1>Rick And Morty</h1>
+      <h2>Introduccion al Desarrollo Web</h2>
+      <div class="mainlogo">
+        <a href="https://adaitw.org/"
+          ><img src="./img/ada_logo_blanco.png" class="logo"
+        /></a>
+        <i class="fa-solid fa-plus"></i>
+        <a href="https://www.tigre.gob.ar/educacion/capacitaciones"
+          ><img src="./img/tigre-logo.svg" class="logo"
+        /></a>
+        <i class="fa-solid fa-plus"></i>
+        <a href="https://www.workertechargentina.org/"
+          ><img src="./img/WorkerTech_Logo.webp" class="logo"
+        /></a>
+      </div>
+    </footer>
+    <script src="app/app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/11ae10f7e6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
