@@ -28,6 +28,7 @@ xhr.send();
 
 $rick.addEventListener("click", () => {
   const url = "https://rickandmortyapi.com/api/character/?name=rick";
+  document.getElementById("ricklist").innerHTML = "";
   fetch(url)
     .then((Response) => Response.json())
     .then((data) => {
@@ -62,6 +63,7 @@ $rick.addEventListener("click", () => {
 
 $morty.addEventListener("click", () => {
   const url = "https://rickandmortyapi.com/api/character/?name=morty";
+  document.getElementById("mortylist").innerHTML = "";
   fetch(url)
     .then((Response) => Response.json())
     .then((data) => {
@@ -96,6 +98,7 @@ $morty.addEventListener("click", () => {
 
 $summer.addEventListener("click", () => {
   const url = "https://rickandmortyapi.com/api/character/?name=summer";
+  document.getElementById("summerlist").innerHTML = "";
   fetch(url)
     .then((Response) => Response.json())
     .then((data) => {
@@ -129,6 +132,7 @@ $summer.addEventListener("click", () => {
 });
 $beth.addEventListener("click", () => {
   const url = "https://rickandmortyapi.com/api/character/?name=beth";
+  document.getElementById("bethlist").innerHTML = "";
   fetch(url)
     .then((Response) => Response.json())
     .then((data) => {
@@ -163,6 +167,7 @@ $beth.addEventListener("click", () => {
 
 $jerry.addEventListener("click", () => {
   const url = "https://rickandmortyapi.com/api/character/?name=jerry";
+  document.getElementById("jerrylist").innerHTML = "";
   fetch(url)
     .then((Response) => Response.json())
     .then((data) => {
