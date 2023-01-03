@@ -7,9 +7,7 @@
 
 header {
   display: flex;
-  text-align: center;
   background-position-y: 50%;
-  padding: 25px;
   background-image: url(../img/0x0.png);
   background-repeat: space;
   filter: grayscale(100%);
@@ -61,6 +59,11 @@ ol {
   align-items: center;
   padding-bottom: 50px;
 }
+
+.container-header {
+  flex-direction: row;
+}
+
 .main-synopsis {
   background-color: #000000;
   border: 2px solid rgb(0, 255, 30);
@@ -188,7 +191,7 @@ hr {
   color: white;
 }
 
-.mainlogo {
+.creditlogo {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -204,4 +207,139 @@ button {
 
 span {
   color: crimson;
+}
+
+@media (max-width: 915px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background-position-y: 90%;
+    background-size: 100%;
+  }
+  .logo {
+    height: 70px;
+  }
+  .characters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .doyouknow,
+  .doyouknow-white {
+    background-color: #000000;
+    border: 2px solid rgb(0, 255, 30);
+    font-family: "Press Start 2P", cursive;
+    width: 800px;
+    padding: 20px;
+    font-size: 20px;
+    color: chartreuse;
+    list-style: decimal;
+    text-align: center;
+  }
+  .doyouknow-white {
+    color: white;
+  }
+  ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #query {
+    display: flex;
+  }
+  .char-synopsis {
+    border: 2px solid rgb(0, 255, 30);
+    background-color: #000000;
+    list-style: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 800px;
+    display: flex;
+    font-family: "Press Start 2P", cursive;
+    font-size: small;
+    color: chartreuse;
+  }
+
+  .doyouknowlist {
+    text-align: left;
+    list-style-position: inside;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    background-position-y: 70%;
+    background-size: 190%;
+  }
+  .logo {
+    height: 70px;
+  }
+  .characters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .doyouknow,
+  .doyouknow-white {
+    background-color: #000000;
+    border: 2px solid rgb(0, 255, 30);
+    font-family: "Press Start 2P", cursive;
+    width: 350px;
+    padding: 20px;
+    font-size: 15px;
+    color: chartreuse;
+    list-style: decimal;
+    text-align: center;
+  }
+  .doyouknow-white {
+    color: white;
+  }
+
+  .doyouknowlist {
+    text-align: left;
+    list-style-position: inside;
+  }
+
+  ol {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #query {
+    display: flex;
+  }
+  .char-synopsis {
+    border: 2px solid rgb(0, 255, 30);
+    background-color: #000000;
+    list-style: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 350px;
+    display: flex;
+    font-family: "Press Start 2P", cursive;
+    font-size: smaller;
+    color: chartreuse;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  .creditlogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .mainlogo {
+    width: 300px;
+  }
 }

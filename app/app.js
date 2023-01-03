@@ -1,5 +1,7 @@
 let $nickname = document.getElementById("nickname");
-let nick = prompt("Ingrese su nombre:");
+let nick = prompt(
+  "Desconocido! Usted esta intentando ingresar a la base de datos. Por medidas de seguridad, por favor, ingrese su nombre de usuario:"
+);
 $nickname.innerHTML += `${nick}`;
 
 //Rick&Morty PJ per PJ
