@@ -1,9 +1,11 @@
 let nick = prompt(
   "Desconocido! Usted esta intentando ingresar a la base de datos. Por medidas de seguridad, por favor, ingrese su nombre de usuario:"
 );
+console.log(nick);
 
 function validar() {
   let $nickname = document.getElementById("nickname");
+  $nickname.innerHTML += `SIN NOMBRE`;
   if (nick.length === 0) {
     alert(
       "Oh! No haz ingresado ningun usuario. Procederemos a detectar su identidad con biometria..."
