@@ -11,8 +11,10 @@ function validar() {
       "Oh! No haz ingresado ningun usuario. Procederemos a detectar su identidad con biometria..."
     );
     alert("Usuario ADMIN detectado!");
+    $nickname.innerHTML = "";
     $nickname.innerHTML += `ADMIN`;
   } else {
+    $nickname.innerHTML = "";
     $nickname.innerHTML += `${nick}`;
   }
 }
