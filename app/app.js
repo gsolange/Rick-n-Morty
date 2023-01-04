@@ -62,7 +62,7 @@ $rick.addEventListener("click", () => {
         <img class="char-photo" src="${
           character.image
         }" alt="Foto 4x4 de Ricks" />
-        <p class="char-status">${character.status}</p>
+        <figcaption class="char-status">${character.status}</figcaption>
         </figure>
       <div class="char-more">
       <br>
@@ -99,7 +99,7 @@ $morty.addEventListener("click", () => {
         <img class="char-photo" src="${
           character.image
         }" alt="Foto 4x4 de Mortys" />
-        <p class="char-status">${character.status}</p>
+        <figcaption class="char-status">${character.status}</figcaption>
         </figure>
       <div class="char-more">
       <br>
@@ -136,7 +136,7 @@ $summer.addEventListener("click", () => {
         <img class="char-photo" src="${
           character.image
         }" alt="Foto 4x4 de Summer" />
-        <p class="char-status">${character.status}</p>
+        <figcaption class="char-status">${character.status}</figcaption>
         </figure>
       <div class="char-more">
       <br>
@@ -172,7 +172,7 @@ $beth.addEventListener("click", () => {
         <img class="char-photo" src="${
           character.image
         }" alt="Foto 4x4 de Beths" />
-        <p class="char-status">${character.status}</p>
+        <figcaption class="char-status">${character.status}</figcaption>
         </figure>
       <div class="char-more">
       <br>
@@ -209,7 +209,7 @@ $jerry.addEventListener("click", () => {
         <img class="char-photo" src="${
           character.image
         }" alt="Foto 4x4 de Jerrys" />
-        <p class="char-status">${character.status}</p>
+        <figcaption class="char-status">${character.status}</figcaption>
         </figure>
       <div class="char-more">
       <br>
