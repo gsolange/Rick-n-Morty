@@ -54,8 +54,10 @@ $rick.addEventListener("click", () => {
         $ricklist.innerHTML += `
     <li class="char-info">
       <div>
-      <img src="../img/TOP SECRET.png" class="char-infoinside">
-        <img class="char-photo" src="${character.image}" alt="" />
+      <img src="../img/TOP SECRET.png" class="char-infoinside" alt="Sello con palabra TOPSCRET">
+        <img class="char-photo" src="${
+          character.image
+        }" alt="Foto 4x4 de Ricks" />
         <p class="char-status">${character.status}</p>
       </div>
       <div class="char-more">
@@ -89,8 +91,10 @@ $morty.addEventListener("click", () => {
         $mortylist.innerHTML += `
     <li class="char-info">
       <div>
-      <img src="../img/TOP SECRET.png" class="char-infoinside">
-        <img class="char-photo" src="${character.image}" alt="" />
+      <img src="../img/TOP SECRET.png" class="char-infoinside" alt="Sello con palabra TOPSCRET">
+        <img class="char-photo" src="${
+          character.image
+        }" alt="Foto 4x4 de Mortys" />
         <p class="char-status">${character.status}</p>
       </div>
       <div class="char-more">
@@ -124,8 +128,10 @@ $summer.addEventListener("click", () => {
         $summerlist.innerHTML += `
     <li class="char-info">
       <div>
-      <img src="../img/TOP SECRET.png" class="char-infoinside">
-        <img class="char-photo" src="${character.image}" alt="" />
+      <img src="../img/TOP SECRET.png" class="char-infoinside" alt="Sello con palabra TOPSCRET">
+        <img class="char-photo" src="${
+          character.image
+        }" alt="Foto 4x4 de Summer" />
         <p class="char-status">${character.status}</p>
       </div>
       <div class="char-more">
@@ -158,8 +164,10 @@ $beth.addEventListener("click", () => {
         $bethlist.innerHTML += `
     <li class="char-info">
       <div>
-      <img src="../img/TOP SECRET.png" class="char-infoinside">
-        <img class="char-photo" src="${character.image}" alt="" />
+      <img src="../img/TOP SECRET.png" class="char-infoinside" alt="Sello con palabra TOPSCRET">
+        <img class="char-photo" src="${
+          character.image
+        }" alt="Foto 4x4 de Beths" />
         <p class="char-status">${character.status}</p>
       </div>
       <div class="char-more">
@@ -193,8 +201,10 @@ $jerry.addEventListener("click", () => {
         $jerrylist.innerHTML += `
     <li class="char-info">
       <div>
-      <img src="../img/TOP SECRET.png" class="char-infoinside">
-        <img class="char-photo" src="${character.image}" alt="" />
+      <img src="../img/TOP SECRET.png" class="char-infoinside" alt="Sello con palabra TOPSCRET">
+        <img class="char-photo" src="${
+          character.image
+        }" alt="Foto 4x4 de Jerrys" />
         <p class="char-status">${character.status}</p>
       </div>
       <div class="char-more">
