@@ -53,13 +53,13 @@ $rick.addEventListener("click", () => {
       for (let character of characters) {
         $ricklist.innerHTML += `
     <li class="char-info">
-      <div>
+    <span>
       <img src="../img/TOP SECRET.png" class="char-infoinside" alt="Sello con palabra TOPSCRET">
         <img class="char-photo" src="${
           character.image
         }" alt="Foto 4x4 de Ricks" />
         <p class="char-status">${character.status}</p>
-      </div>
+        </span>
       <div class="char-more">
       <br>
       <h2 class="char-name">${character.name}</h2>
@@ -90,13 +90,13 @@ $morty.addEventListener("click", () => {
       for (let character of characters) {
         $mortylist.innerHTML += `
     <li class="char-info">
-      <div>
+    <span>
       <img src="../img/TOP SECRET.png" class="char-infoinside" alt="Sello con palabra TOPSCRET">
         <img class="char-photo" src="${
           character.image
         }" alt="Foto 4x4 de Mortys" />
         <p class="char-status">${character.status}</p>
-      </div>
+        </span>
       <div class="char-more">
       <br>
       <h2 class="char-name">${character.name}</h2>
@@ -127,13 +127,13 @@ $summer.addEventListener("click", () => {
       for (let character of characters) {
         $summerlist.innerHTML += `
     <li class="char-info">
-      <div>
+    <span>
       <img src="../img/TOP SECRET.png" class="char-infoinside" alt="Sello con palabra TOPSCRET">
         <img class="char-photo" src="${
           character.image
         }" alt="Foto 4x4 de Summer" />
         <p class="char-status">${character.status}</p>
-      </div>
+        </span>
       <div class="char-more">
       <br>
       <h2 class="char-name">${character.name}</h2>
@@ -163,13 +163,13 @@ $beth.addEventListener("click", () => {
       for (let character of characters) {
         $bethlist.innerHTML += `
     <li class="char-info">
-      <div>
+    <span>
       <img src="../img/TOP SECRET.png" class="char-infoinside" alt="Sello con palabra TOPSCRET">
         <img class="char-photo" src="${
           character.image
         }" alt="Foto 4x4 de Beths" />
         <p class="char-status">${character.status}</p>
-      </div>
+        </span>
       <div class="char-more">
       <br>
       <h2 class="char-name">${character.name}</h2>
@@ -200,13 +200,13 @@ $jerry.addEventListener("click", () => {
       for (let character of characters) {
         $jerrylist.innerHTML += `
     <li class="char-info">
-      <div>
+    <span>
       <img src="../img/TOP SECRET.png" class="char-infoinside" alt="Sello con palabra TOPSCRET">
         <img class="char-photo" src="${
           character.image
         }" alt="Foto 4x4 de Jerrys" />
         <p class="char-status">${character.status}</p>
-      </div>
+        </span>
       <div class="char-more">
       <br>
       <h2 class="char-name">${character.name}</h2>
