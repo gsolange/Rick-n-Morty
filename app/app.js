@@ -30,7 +30,10 @@ const xhr = new XMLHttpRequest();
 function onRequestHandler() {
   if (this.readyState === 4 && this.status === 200) {
     console.log("We're ready!");
-  } else alert("Oh sorry, we've technical problems...");
+  } else
+    alert(
+      "Oh sorry, we've technical problems... please verify your network connection or try again later."
+    );
 }
 
 xhr.addEventListener("load", onRequestHandler);
