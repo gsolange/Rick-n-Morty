@@ -2,7 +2,16 @@ let $nickname = document.getElementById("nickname");
 let nick = prompt(
   "Desconocido! Usted esta intentando ingresar a la base de datos. Por medidas de seguridad, por favor, ingrese su nombre de usuario:"
 );
-$nickname.innerHTML += `${nick}`;
+
+if (nick === " ") {
+  $nickname.innerHTML += `${nick}`;
+} else {
+  alert(
+    "Oh! No haz ingresado ningun usuario. Procederemos a detectar su identidad con biometria..."
+  );
+  alert("Usuario ADMIN detectado!");
+  $nickname.innerHTML += `ADMIN`;
+}
 
 //Rick&Morty PJ per PJ
 const $rick = document.getElementById("rick");
