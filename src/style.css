@@ -210,6 +210,9 @@ span {
 }
 
 @media only screen and (max-width: 1280px) {
+  * {
+    max-width: 100% !important;
+  }
   .container {
     display: flex;
     flex-direction: column;
@@ -232,7 +235,7 @@ span {
     background-color: #000000;
     border: 2px solid rgb(0, 255, 30);
     font-family: "Press Start 2P", cursive;
-    width: 800px;
+    width: 800px !important;
     padding: 20px;
     font-size: 20px;
     color: chartreuse;
@@ -256,7 +259,7 @@ span {
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
-    width: 800px;
+    width: 800px !important;
     display: flex;
     font-family: "Press Start 2P", cursive;
     font-size: small;
@@ -270,6 +273,9 @@ span {
 }
 
 @media only screen and (max-width: 810px) {
+  * {
+    max-width: 100% !important;
+  }
   .container {
     display: flex;
     flex-direction: column;
@@ -293,7 +299,7 @@ span {
     background-color: #000000;
     border: 2px solid rgb(0, 255, 30);
     font-family: "Press Start 2P", cursive;
-    width: 350px;
+    width: 350px !important;
     padding: 20px;
     font-size: 15px;
     color: chartreuse;
@@ -323,7 +329,7 @@ span {
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
-    width: 350px;
+    width: 350px !important;
     display: flex;
     font-family: "Press Start 2P", cursive;
     font-size: smaller;
@@ -340,6 +346,6 @@ span {
     align-items: center;
   }
   .mainlogo {
-    width: 300px;
+    width: 300px !important;
   }
 }
