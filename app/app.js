@@ -1,17 +1,21 @@
-let $nickname = document.getElementById("nickname");
 let nick = prompt(
   "Desconocido! Usted esta intentando ingresar a la base de datos. Por medidas de seguridad, por favor, ingrese su nombre de usuario:"
 );
 
-if (nick === " ") {
-  $nickname.innerHTML += `${nick}`;
-} else {
-  alert(
-    "Oh! No haz ingresado ningun usuario. Procederemos a detectar su identidad con biometria..."
-  );
-  alert("Usuario ADMIN detectado!");
-  $nickname.innerHTML += `ADMIN`;
+function validar() {
+  let $nickname = document.getElementById("nickname");
+  if (nick.length === 0) {
+    alert(
+      "Oh! No haz ingresado ningun usuario. Procederemos a detectar su identidad con biometria..."
+    );
+    alert("Usuario ADMIN detectado!");
+    $nickname.innerHTML += `ADMIN`;
+  } else {
+    $nickname.innerHTML += `${nick}`;
+  }
 }
+
+validar(nick);
 
 //Rick&Morty PJ per PJ
 const $rick = document.getElementById("rick");
