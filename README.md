@@ -1,6 +1,6 @@
 # Rick-n-Morty
 
-<h1>Institución: ADA ITW </h1>
+<h2>Institución: ADA ITW </h2>
 <h2>Profesores: </h2>
 <ul>
 <li>Gabriel Alberini</li>
